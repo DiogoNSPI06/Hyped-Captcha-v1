@@ -75,6 +75,7 @@ client.on('message', async (message) => {
   let command = args.shift().toLowerCase();
   //aliases
   if(command === "e") command = "eval";
+  if(command === "setcaptcha") command = "setconfig";
 
   try {
     const commandFile = require(`./commands/${command}.js`)
