@@ -41,4 +41,4 @@ Change what you need!
     "mod": "BAN_MEMBERS",
     "manager": "MANAGE_GUILD"
   }
-}```
+}
